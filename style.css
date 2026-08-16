@@ -13,19 +13,19 @@ body {
 h1 {
   font-size: 2rem;
   color: #111;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.3em;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.35rem;
   color: #111;
   border-bottom: 2px solid #ddd;
   padding-bottom: 6px;
-  margin-top: 2.5em;
+  margin-top: 2.2em;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin-bottom: 0.3em;
   color: #111;
 }
@@ -33,19 +33,28 @@ h3 {
 .subtitle {
   color: #555;
   font-size: 1.1rem;
-  margin-bottom: 2em;
+  margin-bottom: 1.8em;
+}
+
+p {
+  margin-bottom: 1em;
 }
 
 /* ===== Navigation ===== */
 nav {
-  margin-bottom: 2em;
+  margin-bottom: 2.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em 1.2em;
   font-size: 0.95rem;
 }
 
 nav a {
-  margin-right: 1.2em;
   color: #0066cc;
   text-decoration: none;
+  font-weight: 500;
 }
 
 nav a:hover {
